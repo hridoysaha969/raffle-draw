@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle Draw - Coder's Hridoy</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- ==== MOBILE MENU START ====-->
+    <div class="mobile-menu">
+        <div class="times">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul class="mobileNav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="https://codershridoy.com/help/">Help</a></li>
+            <li><a href="https://codershridoy.com/contact-us/">Contact</a></li>
+        </ul>
+        <div class="sponsore">
+            <a href="https://codershridoy.com">Visit now</a>
+        </div>
+    </div>
+    <!-- ==== MOBILE MENU END ====-->
+    <header class="pb-5">
+        <nav>
+            <div class="container">
+                <div class="wrapper py-3">
+                    <div class="logo">
+                        <h3><a class="text-white" href="https://codershridoy.com">Coder's Hridoy</a></h3>
+                    </div>
+
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="https://codershridoy.com/help/">Help</a></li>
+                            <li><a href="https://codershridoy.com/contact-us/">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="hamberger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="draw-section">
+
+            <div class="container">
+                <div class="heading text-center text-white">
+                    <h2>Raffle Draw</h2>
+                    <p class="m-0">Introducing Biggest Raffle Draw Web Application. Usable for any kind of draw.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="text-white" for="inp">Enter All Name</label>
+                            <textarea id="inp" class="form-control" rows="14"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn btn-hero" type="button" data-toggle="collapse" data-target="#collapseExample" data-expanded="false" aria-controls="collapseExample">
+                                Participants List
+                            </button>
+    
+                            <div class="collapse my-4" id="collapseExample">
+                                <div class="card card-body">
+                                    <ul class="list-group" id="name-list">
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <label class="text-white">Lucky Participant</label>
+                        <div class="card card-body text-center">
+                            <h2 id="display">Participant Names</h2>
+                        </div>
+                        <div class="middle text-center">
+                            <button class="btn btn-hero mt-4" id="give-a-try">
+                                Draw Now
+                            </button>
+                        </div>
+                        <ul class="list-group my-4">
+                            <li class="list-group-item">
+                                <strong>First Winner : <span id="first-position"></span></strong>
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Second Winner : <span id="second-position"></span></strong>
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Third Winner : <span id="third-position"></span></strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <footer class="pt-2 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="meta-1 text-center">
+                        <p class="text-white mb-0">Useful Links</p>
+                        <a href="https://codershridoy.com/help/">Help</a>
+                        <a href="https://codershridoy.com/contact-us/">Contact</a>
+                        <a href="mailto:hridoysaha969@gmail.com">Mail Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="meta-2 text-center">
+                        <p class="text-white mb-1">Social</p>
+                        <a href="https://www.facebook.com/hridoysaha143/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/hridoysaha143/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCTyTGjMijgBJh-9QEzWbxFg"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JS FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
